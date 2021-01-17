@@ -5,8 +5,8 @@ const App = () => {
   return (
     <div style={{ textAlign: "center" }}>
       <MyForm
-        onSubmit={({ email, firstName, lastName }) => {
-          console.log(email, firstName, lastName);
+        onSubmit={({ email, firstName, lastName , paso, arr }) => {
+          
         }}
       />
     </div>

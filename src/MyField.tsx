@@ -5,7 +5,8 @@ import { TextFieldProps } from "@material-ui/core/TextField/TextField";
 
 export const MyField: React.FC<FieldProps & TextFieldProps> = ({
   placeholder,
+  style,
   field
 }) => {
-  return <TextField placeholder={placeholder} {...field} />;
+  return <TextField placeholder={placeholder} style={style} {...field} />;
 };
